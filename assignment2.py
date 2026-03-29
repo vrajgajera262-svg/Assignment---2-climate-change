@@ -176,6 +176,7 @@ for country in name:                                                            
 plt.xlabel("Renewable Energy Share (%, 2020)")                                  # x axis label
 plt.ylabel("CO2 Emissions (Mt CO2e, 2020)")                                     # y axis label
 plt.title("Renewable Energy vs CO2 Emissions (2020)")                           # chart title
+plt.legand()                                                                    # creates labelling different elements on a graph
 plt.tight_layout()                                                              # avoid clipping
 plt.show()                                                                      # display the figure
 
@@ -199,4 +200,5 @@ plt.xlabel("Year")                                                              
 plt.ylabel("Urban Population (%)")                                              # Y-axis label
 plt.title("Urban Population Trend (1990-2020)")                                 # Chart title
 plt.tight_layout()                                                              # Avoid clipping
+plt.legand ()                                                                   # Creates labelling different elements on a graph
 plt.show()                                                                      # Plotting Graph
